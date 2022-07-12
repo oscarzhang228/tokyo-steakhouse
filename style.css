@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* disables horizontal scrolling */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #e8e8e8;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 10vh;
+  align-items: center;
+  border-bottom: 10px solid #e8e8e8;
+  background-color: #f9faf8;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 9999;
+}
+
+nav img {
+  margin-right: 5vw;
+  margin-left: 2vw;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+
+nav a:hover {
+  font-size: 16px;
+  color: red;
+  transition: 500ms;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 5vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#intro {
+  background-image: url("images/sushi-1.png");
+  margin-top: 10vh;
+  min-height: 1000px;
+}
+
+#intro h1 {
+  color: white;
+  font-size: 100px;
+}
+
+/* 
+to-do list (come back to)
+navbar links
+menu dropdown
+make it work for mobile phones
+slideshow in javascript on the first parallax image
+*/
