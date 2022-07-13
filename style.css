@@ -191,6 +191,20 @@ section {
 #directions a {
   color: white;
 }
+
+footer {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  border-top: 10px solid #e8e8e8;
+}
+
+footer h2 {
+  font-size: 10px;
+}
 /* 
 to-do list (come back to)
 navbar links
@@ -200,7 +214,6 @@ make it work for mobile phones
 ask mom for a restaurant email and replace filler email in location 
 
 sections to add: 
-contact us with form 
 menu:
 dropdown on navbar to the sections of menu
 separate page with the sections of menu
