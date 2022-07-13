@@ -97,14 +97,97 @@ nav ul {
   align-self: center;
 }
 
-#hours {
+section {
   min-height: 92vh;
-  background-color: #f9faf8;
+}
+
+#hours {
+  background-color: #0b0f14;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+#hours h1 {
+  font-family: "Russo One", sans-serif;
+  font-size: 60px;
+  width: 100%;
+  text-align: center;
+  padding-top: 5vh;
+}
+
+#hours h2,
+#hours h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#open-hours {
+  display: flex;
+  margin-top: 8vh;
+  justify-content: space-evenly;
+}
+
+#lunch-hours,
+#dinner-hours {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#lunch-hours h2,
+#dinner-hours h2 {
+  font-weight: 800;
+}
+
+#hours-notice {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20vh;
+}
+
+#locate {
+  min-height: 50vh;
+  display: flex;
+  font-family: "Lato", sans-serif;
+}
+
+#location-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 5vw;
+}
+
+#location-details h2 {
+  font-weight: 400;
+}
+
+#directions {
+  align-self: center;
+  margin-left: auto;
+  margin-right: 10vw;
+  background-color: #1f2937;
+  padding: 15px 25px;
+  border-radius: 10px;
 }
 /* 
 to-do list (come back to)
 navbar links
 menu dropdown
 make it work for mobile phones
-slideshow in javascript on the first parallax image
+
+ask mom for a restaurant email and replace filler email in location 
+
+sections to add: 
+contact us with form 
+menu:
+dropdown on navbar to the sections of menu
+separate page with the sections of menu
+separate pages with menu items
+
+footer
 */

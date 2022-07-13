@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tokyo Japanese SteakHouse</title>
+    <title>Tokyo Japanese Steakhouse</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
   </head>
   <body>
     <nav>
@@ -13,7 +14,7 @@
       <ul>
         <li><a href="#top">HOME</a></li>
         <li><a href="#">MENU</a></li>
-        <li><a href="#">GALLERY</a></li>
+        <li><a href="#locate">LOCATE</a></li>
         <li><a href="#">CONTACT US</a></li>
       </ul>
     </nav>
@@ -26,9 +27,45 @@
       </section>
 
       <section id="hours">
-        <h1>Business Hours</h1>
-        <h2>Lunch Hours</h2>
-        <h2>Dinner Hours</h2>
+        <h1>BUSINESS HOURS</h1>
+        <div id="open-hours">
+          <div id="lunch-hours">
+            <h2>Lunch Hours:</h2>
+            <h3>Mon-Thurs: 11:00 AM - 2:30PM</h3>
+            <h3>Fri: 11:00AM - 2:30 PM</h3>
+            <h3>Sat: 12:00 AM - 3:00 PM</h3>
+            <h3>Sun: 12:00 AM - 3:00 PM</h3>
+          </div>
+          <div id="dinner-hours">
+            <h2>Dinner Hours:</h2>
+            <h3>Mon-Thur: 4:30 PM - 9:30 PM</h3>
+            <h3>Fri: 4:30 PM - 10:30 PM</h3>
+            <h3>Sat: 3:00 PM - 10:30 PM</h3>
+            <h3>Sun: 3:00 PM - 9:30 PM</h3>
+          </div>
+        </div>
+        <h3 id="hours-notice">
+          Reservations and carry-out orders at <br />(678) 423-7883
+        </h3>
+      </section>
+      <section id="locate">
+        <div id="location-details">
+          <h2>
+            Location: <br />
+            101 Newnan Crossing Bypass, Newnan, GA 30265
+            <br />
+          </h2>
+          <h2>
+            Contact: <br />
+            678-423-7883 <br />
+          </h2>
+          <h2>
+            Email: <br />
+            filleremail@gmail.com
+          </h2>
+        </div>
+
+        <div id="directions"><a>GET DIRECTIONS</a></div>
       </section>
     </main>
   </body>
